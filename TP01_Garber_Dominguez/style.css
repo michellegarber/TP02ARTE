@@ -57,7 +57,7 @@ header div h1{
     background-color: rgba(255, 0, 0, 0.295);
     height: auto;
 }
-.contactanos h4, h2, p{
+.contactanos h4, .contactanos h2, .contactanos p{
     text-align:center;
 }
 .contactanos button
@@ -160,8 +160,11 @@ main section div img{
 main h3{
     clear:both;
 }
-.museo1{
-    float: left;
+.museo1 div p, .museo1 div h2, .museo div h4{
+    width: 100px;
+    height: auto;
+    text-align: center;
+
 }
 .museo1 div{
     display:flex;
@@ -170,5 +173,14 @@ main h3{
 }
 .museo1 img{
     
+}
+.museo1, .museo2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.museo1 div, .museo2 div {
+    width: 70%;
+    padding: 10px;
 }
 
