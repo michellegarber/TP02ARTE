@@ -160,8 +160,8 @@ main section div img{
 main h3{
     clear:both;
 }
-.museo1 div p, .museo1 div h2, .museo div h4{
-    width: 100px;
+.museo1 div h2, .main section.museo div h4{
+    width: 40%;
     height: auto;
     text-align: center;
 
@@ -182,5 +182,16 @@ main h3{
 .museo1 div, .museo2 div {
     width: 70%;
     padding: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+form p{
+    margin: 2%;
+}
+form input[type="submit"], form input[type="reset"]{
+    display: flex;
+    justify-content: space-around;
 }
 
