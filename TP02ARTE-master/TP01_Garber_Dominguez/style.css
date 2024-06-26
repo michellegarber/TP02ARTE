@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: black solid 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header, footer div{
+    background-color: rgb(247, 215, 128) ;
+    height: 100px;
+}
+header div nav ul li {
+    list-style-type: none;
+    float: left;
+    text-decoration:none;
+    text-align:center;
+    margin: 3%; 
+    
+}
+header div nav ul li :hover {
+    list-style-type: none;
+    float: left;
+    text-decoration:none;
+    text-align:center;
+    margin: 3%;
+    background-color:rgba(255, 0, 0, 0.815); 
+}
+header div{
+    width: 33%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+header div nav
+{
+    width:100%;
+    height: auto;
+    
+}
+header div nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+header div nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 120% ;
+}
+header div h1{
+    text-align: center;
+    font-size: 400%;
+    
+}
+.contactanos{
+    background-color: rgba(255, 0, 0, 0.295);
+    height: auto;
+}
+.contactanos h4, .contactanos h2, .contactanos p{
+    text-align:center;
+}
+.contactanos button
+{   
+    height:50px;
+    width:10%;
+    margin-left:45%;
+    margin-right:45%;
+    display: flex;
+    justify-content: center;
+   background-color:rgba(255, 0, 0, 0.295);
+   border: 0px;
+}
+.contactanos button a
+{   
+    display: flex;
+    align-items:center;
+    font-size:large;
+    text-decoration:none;
+    color: black;
+    
+}
+footer div img{
+    height: 70%;
+    float: left;
+}
+footer div p{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+main{
+    
+    margin: 3%;
+}
+main h1{
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+main div{
+    display:flex;
+    justify-content: space-around;
+}
+main section div p{
+    width: 40%;
+    float: left;
+    display:flex;
+    align-items:center;
+    text-align: justify;
+    
+}
+.carrusel{
+    margin: 3%;
+    background-color: rgba(128, 128, 128, 0.507);
+    display:flex;
+    justify-content: space-around;
+}
+.carrusel img{
+    margin-top:2%;
+    margin-bottom:2%;
+    height:300px;
+    width:auto;
+}
+main section div img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.alojamiento div img{
+    width: 80%;
+    height:auto;
+    display:flex;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 10%;
+}
+.alojamiento div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin:3%;
+    background-color:rgba(247, 215, 128, 0.514) ;
+}
+.alojamiento div:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin:3%;
+    background-color:rgb(247, 215, 128);
+}
+.alojamiento div p{
+    margin:5%;
+    width:90%;
+}
+.alojamiento div h2{
+    text-align: center;
+}
+main h3{
+    clear:both;
+}
+.modelo1 div h2, .modelo1 div h4 , .modelo1 div p, .modelo2 div h2, .modelo2 div h4, .modelo2 div p{
+    width: 90%;
+    height: auto;
+    text-align: center;
+
+}
+.modelo1 div, .modelo2 div{
+    display:flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+}
+.modelo1 img, .modelo2 img{
+    width: 50%;
+    height: auto;
+}
+.modelo1, .modelo2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.modelo1 div:hover , .modelo2 div:hover{
+    background-color:rgb(247, 215, 128);
+}
+.modelo1 div, .modelo2 div {
+    width: 70%;
+    padding: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+form p{
+    margin: 2%;
+    
+}
+form input[type="submit"], form input[type="reset"]{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    height: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%; 
+}
+.modelo3{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;  
+}
+.modelo3 div{
+    display:flex;
+    flex-direction: column;
+    float: left;
+    font-size: x-large;
+    width:70%;
+}
+.mapas{
+    flex-direction: column;
+}
+
